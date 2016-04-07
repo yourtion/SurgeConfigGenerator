@@ -53,3 +53,4 @@ http://server.com/surge/?config=Abclite_ADB&account=Abclite1&passwd=myPassword
 
 将该网址填入 Surge 的 `Download Configuration from URL` 就完成了。
 
+> 如果不填写 `config` 和 `account` 会默认加载第一个配置，URL 可以简单写成：http://server.com/surge/?passwd=myPassword
