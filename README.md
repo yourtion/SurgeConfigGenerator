@@ -14,7 +14,7 @@
 
 ```php
 $config = array(
-  // Suerge 在线配置文件地址
+  // Surge 在线配置文件地址
   'surge' => array(
     'Abclite_ADB' => 'http://abclite.cn/Abclite_ADB.conf',
     'Abclite' => 'http://abclite.cn/Abclite.conf'
