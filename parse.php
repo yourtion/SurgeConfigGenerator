@@ -15,9 +15,17 @@
 		return $result[1][0];
 	}
 	
+	function get_proxy_group($proxys) {
+		$gruop = ['Proxy = select'];
+		foreach ($proxys as $proxy) {
+			$gruop[] = trim(split('=',$proxy)[0]);
+		}
+		return implode(',', $gruop);
+	}
+	
 	function parse_config($content,$server) {
 		$proxy_res = $server['proxy'];
-		$group_res = $server['group'];
+		$group_res = get_proxy_group($server['proxy']);
 		$res = [];
 		$is_inProxy = false;
 		$is_inProxyGroup = false;

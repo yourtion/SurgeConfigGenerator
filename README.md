@@ -32,8 +32,6 @@ $config = array(
         '🇺🇸US = custom,abclite.cn,10000,rc4-md5,abclite.cn,http://abclite.cn/SSEncrypt.module',
         '🇰🇷KR = custom,abclite.cn,10000,rc4-md5,abclite.cn,http://abclite.cn/SSEncrypt.module'
       ),
-      // 代理服务器组配置
-      'group' => 'Proxy = select,🇭🇰HK,🇸🇬SG,🇯🇵JP,🇺🇸US,🇰🇷KR',
       // 请求时的验证密码（防止服务器信息泄露）
       'passwd' => 'myPassword'
     ),
